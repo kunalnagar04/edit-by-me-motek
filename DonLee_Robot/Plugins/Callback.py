@@ -1639,16 +1639,12 @@ async def callback_data(bot, update: CallbackQuery):
     query_data = update.data
 
     if query_data == "start":
-        buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/Mrk_YT'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee_bot')
-        ],[
-            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/mo_Tech_yt')
-        ],[
-            InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
-        ],[
-            InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtu.be/uAHl5jvnrhk')
-        ]]
+        buttons =[[
+        InlineKeyboardButton('ᗰᎩ ᗷᝪᔑᔑ​ 😎', url='https://t.me/kunal_nagar_01')
+    ],[
+        InlineKeyboardButton('♻️ ᒍᝪᏆᑎ ᑕᕼᗩᑎᑎᗴᏞ​ ♻️', url='https://t.me/movieshouse8')
+    ],[ InlineKeyboardButton ('🤟 ᒍᝪᏆᑎ Ꮐᖇᝪᑌᑭ​ 🤟',  url=`https://t.me/mh_request')
+    ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
         
